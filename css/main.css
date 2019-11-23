@@ -25,6 +25,11 @@ body{
 .carousel-caption{
     padding-bottom: 12%;
 }
+.img-resize{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+   }
 
 .carousel-caption h3 {
     font-size: 42px;
@@ -34,9 +39,9 @@ body{
     font-size: 18px;
     color: #1ebff3;;
 }
-.carousel-item img{
+/* .carousel-item img{
  height: 70vh;
-}
+} */
 /* buttons */
 .btn-info {
  background-color: #42d4eb;
