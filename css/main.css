@@ -48,6 +48,7 @@ body{
 /* styles best food and wine bar */
 .style {
    text-shadow: 5px 5px 20px #333;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* buttons */
 .btn-info {
@@ -83,11 +84,43 @@ body{
 
        }
        .team {
+        padding-bottom: 10px;
         text-shadow: 5px 5px 20px red;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        }
-      /* video background */
-     .wclb {
+      
+      
+       /* video background */
+
+     @media (min-aspect-ratio:16/9){
+         #video {
+             width: 100%;
+             height: auto;
+         }
+     } 
+
+     @media (max-aspect-ratio:16/9){
+        #video {
+            width: auto;
+            height: 100%;
+        }
+    } 
+
+    /* @media (max-width: 767px){
+        #video {
+            display: none;
+        }
+        body {
+            background: url('../Vid/Drink-Wine.jpg');
+            background-size: cover;
+        }
+    } */
+    
+    .wclb {
      padding-top: 250px;
+     padding-bottom: 250px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
      }
 
        /* menu */
@@ -97,6 +130,7 @@ body{
        .menu{
            color: rgb(236, 33, 175);
            text-shadow: 5px 5px 20px green;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        }
        .card {
            box-shadow:  2px 5px 20px #777;
@@ -118,6 +152,7 @@ body{
       }
       .wtitle {
           padding: 150px 20px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
       .wtitile h2 {
           font-size: 36px;
@@ -133,6 +168,7 @@ body{
       .wlt {
           padding-bottom: 50px;
           text-shadow: 5px 5px 20px #555;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
       /* jumbotran */
       #jumbo {
@@ -140,6 +176,7 @@ body{
       }
       .jumbo {
         text-shadow: 5px 5px 20px #863a3a;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
       /* overlay */
       .ovl {
@@ -163,6 +200,7 @@ body{
     .lok {
       color:#570e0e;
       text-shadow: 5px 5px 20px darkblue;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .loc img {
       margin-right: 10px;
@@ -181,6 +219,7 @@ body{
     }
     .tests{
         text-shadow: 5px 5px 20px rgb(241, 10, 87);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .ppl {
         padding: 100px; /* 50*/
@@ -193,8 +232,8 @@ body{
         font-weight: bold;
     } */
     .ppl img{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 .carosel-inner {
     min-height: 300px;
@@ -207,7 +246,7 @@ body{
     }
     .iframe-container {
      position: relative;
-     padding-bottom: 56.25%;
+     padding-bottom: 56.25%; /* by min:aspect ratio :16/9*/
      padding-top: 30px;
     }
     .iframe-container iframe,
@@ -229,6 +268,7 @@ body{
     }
     .hir h2 {
        text-shadow: 5px 5px 10px #555;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     /* pop-up box */
     .pop-box {
@@ -279,6 +319,7 @@ body{
 }
 .deli {
     text-shadow: 5px 5px 20px darkmagenta;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Contact */
@@ -295,6 +336,7 @@ body{
 .cntc{
     color: lightcoral;
     text-shadow: 5px 5px 20px darkolivegreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
