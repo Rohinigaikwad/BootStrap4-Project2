@@ -23,12 +23,14 @@ body{
 }
 /* Carousel */
 .carousel-caption{
-    padding-bottom: 12%;
+    padding-bottom: 22%;
 }
+  
 .img-resize{
     width: 100%;
     object-fit: cover;
     display: block;
+    height: 100%;
    }
 
 .carousel-caption h3 {
@@ -42,6 +44,11 @@ body{
 /* .carousel-item img{
  height: 70vh;
 } */
+
+/* styles best food and wine bar */
+.style {
+   text-shadow: 5px 5px 20px #333;
+}
 /* buttons */
 .btn-info {
  background-color: #42d4eb;
@@ -75,6 +82,9 @@ body{
          padding: 50px 10px;
 
        }
+       .team {
+        text-shadow: 5px 5px 20px red;
+       }
       /* video background */
      .wclb {
      padding-top: 250px;
@@ -84,6 +94,10 @@ body{
        #menu {
         padding: 50px 10px;  /*35*/
        }
+       .menu{
+           color: rgb(236, 33, 175);
+           text-shadow: 5px 5px 20px green;
+       }
        .card {
            box-shadow:  2px 5px 20px #777;
        }
@@ -91,7 +105,9 @@ body{
        /* modal */
        .modal-content {
            background: #207ef1;
+           text-align: center;
        }
+
       /* parallax */
       #plx {
           background: url(../Img/wine.jpeg);
@@ -115,11 +131,15 @@ body{
            
       }
       .wlt {
-          padding-bottom: 50px; /* 40*/
+          padding-bottom: 50px;
+          text-shadow: 5px 5px 20px #555;
       }
       /* jumbotran */
       #jumbo {
           background-color:#e9ecef ;
+      }
+      .jumbo {
+        text-shadow: 5px 5px 20px #863a3a;
       }
       /* overlay */
       .ovl {
@@ -140,6 +160,10 @@ body{
           background-repeat: no-repeat;
           background-size: cover;
     }
+    .lok {
+      color:#570e0e;
+      text-shadow: 5px 5px 20px darkblue;
+    }
     .loc img {
       margin-right: 10px;
       transition-duration: 1.5s;
@@ -154,6 +178,9 @@ body{
     /* testimonials */
     #testimonials {
         background:#2b2b2b;
+    }
+    .tests{
+        text-shadow: 5px 5px 20px rgb(241, 10, 87);
     }
     .ppl {
         padding: 100px; /* 50*/
@@ -178,6 +205,23 @@ body{
         padding: 100px 0px;
         background: #111;
     }
+    .iframe-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     padding-top: 30px;
+    }
+    .iframe-container iframe,
+    .iframe-container object,
+    .iframe-container embed {
+        position:absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+
+    } 
+
+    
     /* Hiring */
     #hire .jumbotron {
         margin-bottom: 0;
@@ -233,6 +277,9 @@ body{
 .numd {
     padding-top: 20px;
 }
+.deli {
+    text-shadow: 5px 5px 20px darkmagenta;
+}
 
 /* Contact */
 #contact {
@@ -244,6 +291,13 @@ body{
 .cbtn {
      margin-top: 67px;   /*  57 prev-for aline 2 buttons in same line  */
 }
+
+.cntc{
+    color: lightcoral;
+    text-shadow: 5px 5px 20px darkolivegreen;
+
+}
+
 /* footer */
 #footer {
     background:#333;
