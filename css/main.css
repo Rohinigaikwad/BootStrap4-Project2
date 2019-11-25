@@ -91,11 +91,16 @@ body{
        }
       
       /* video background */
-    
+       #video {        /*optinal since video is not suported*/
+         background:url(../Img/Wineback.jpeg); 
+          background-attachment: fixed;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+   }
      .wclb {
      padding:150px 10px;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
      }
 
        /* menu */
