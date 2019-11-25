@@ -76,6 +76,7 @@ body{
    }
    .specials h2 {
      color: #fff;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        }
 
        /*team  */
@@ -89,36 +90,10 @@ body{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        }
       
-      
-       /* video background */
-
-     @media (min-aspect-ratio:16/9){
-         #video {
-             width: 100%;
-             height: auto;
-         }
-     } 
-
-     @media (max-aspect-ratio:16/9){
-        #video {
-            width: auto;
-            height: 100%;
-        }
-    } 
-
-    /* @media (max-width: 767px){
-        #video {
-            display: none;
-        }
-        body {
-            background: url('../Vid/Drink-Wine.jpg');
-            background-size: cover;
-        }
-    } */
+      /* video background */
     
-    .wclb {
-     padding-top: 250px;
-     padding-bottom: 250px;
+     .wclb {
+     padding:150px 10px;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
      }
@@ -151,7 +126,7 @@ body{
           background-size: cover;
       }
       .wtitle {
-          padding: 150px 20px;
+          padding: 140px 10px;
           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
       .wtitile h2 {
